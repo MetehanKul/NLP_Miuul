@@ -40,7 +40,7 @@ pd.set_option('display.float_format', lambda x: '%.2f' % x)
 # 1. Text Preprocessing
 ##################################################
 
-df = pd.read_csv("datasets/amazon_reviews.csv", sep=",")
+df = pd.read_csv("amazon_reviews.csv", sep=",")
 df.head()
 
 ###############################
